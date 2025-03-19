@@ -5,6 +5,5 @@ edition = "2024"
 authors = ["markhenry.liwag@gmail.com"]
 
 [dependencies]
-actix-web = "4.9.0"
 async-once-cell = "0.5.4"
-sqlx = { version = "0.8.2", features = ["postgres", "runtime-tokio"] }
+sqlx = { version = "0.8.3", features = ["postgres", "runtime-tokio"] }
